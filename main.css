@@ -2,3 +2,10 @@
     color: green;
     margin: auto 1vw;
 }
+
+.container{
+    display: grid;
+    margin: 0;
+    align-content: center;
+    justify-content: center;
+}
