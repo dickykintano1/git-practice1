@@ -2,3 +2,24 @@
     color: green;
     margin: auto 1vw;
 }
+
+.container{
+    display: grid;
+    margin: 0;
+    align-content: center;
+    justify-content: center;
+}
+
+@media only screen and (max-width:500px){
+    .container{
+        display: grid;
+        margin: 0;
+        align-content: center;
+        justify-content: center;
+        background-color: red;
+    }
+}
+
+.select{
+    background-color:green;
+}
